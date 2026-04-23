@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "0.9.10",
+    "express": "5.2.1",
+    "three": "0.183.2",
+    "debug": "4.4.3"
+  },
+  "devDependencies": {
+    "vite": "7.3.2"
+  }
+}
