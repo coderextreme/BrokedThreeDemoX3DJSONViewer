@@ -7,11 +7,15 @@
   },
   "dependencies": {
     "@xmldom/xmldom": "0.9.10",
+    "debug": "4.4.3",
     "express": "5.2.1",
-    "three": "0.183.2",
-    "debug": "4.4.3"
+    "three": "0.183.2"
   },
   "devDependencies": {
-    "vite": "7.3.2"
+    "esbuild": "^0.28.1",
+    "vite": "^7.3.6"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
   }
 }
